@@ -7,8 +7,8 @@ Installation
 ------------
 ```
 cd /var/lib/dokku/plugins
-git clone https://github.com/jezdez/dokku-memcached-plugin memcached
-dokku plugins-install
+sudo git clone https://github.com/maccman/dokku-memcached-plugin memcached
+sudo dokku plugins-install
 ```
 
 This plugin also requires the dokku-link plugin to be installed:
